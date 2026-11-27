@@ -113,7 +113,7 @@ Notes on the plan:
 
 ## Dataset Selected
 
-<https://www.kaggle.com/datasets/odedgolden/movielens-1m-dataset/data?select=ratings.dat>
+<https://www.kaggle.com/datasets/odedgolden/movielens-1m-dataset/>
 
 note: why not from <https://grouplens.org/datasets/movielens/>
 
@@ -123,6 +123,8 @@ the requirements document IS in fact AI generated and the URLs are not valid and
 $ curl https://grouplens.org/datasets/movielens/
 curl: (28) Failed to connect to grouplens.org:443 after 7203 ms: Could not connect to server
 ```
+
+Downloader: `dataset/download.py` downloads the entire `odedgolden/movielens-1m-dataset` bundle (`README`, `movies.dat`, `ratings.dat`, `users.dat`) into `dataset/raw/` with Python `requests` only (no Kaggle package, token or shell tools). Future cleaned data goes in `dataset/treated/`.
 
 ## Proposed Stack
 
