@@ -1,0 +1,4 @@
+# Ahmed Essa - 223106563
+# Maryam Othman - 223105468
+# Ahmed Allam - 223102168
+requests>=2.32,<3

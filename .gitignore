@@ -1,0 +1,11 @@
+
+# Downloaded data (regenerate with dataset/download.py)
+dataset/raw/
+
+# Python caches
+__pycache__/
+*.py[cod]
+
+# Local environments
+.venv/
+venv/
